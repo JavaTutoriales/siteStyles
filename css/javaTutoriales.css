@@ -1,0 +1,99 @@
+.negritas {
+    font-weight: bold;
+}
+
+.centrado {
+    text-align: center;
+    margin: auto;
+}
+
+.codigo {
+    font-weight: bold;
+    font-family: courier new;
+}
+
+.nota {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+span.nota {
+    padding: 1em;
+    padding-top: 0.5em;
+    display: table-cell;
+    margin: 1.4rem 0;
+    text-align: left;
+    border: none;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    border-top: .15rem solid #00a3da;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1);
+    background: #EAEAEA;
+}
+
+.post-title, .entry-title {
+    color: #0070c0;
+}
+
+.titulo {
+    font-weight: bold;
+    color: #f49b16;
+    font-size: 180%;
+    text-transform: none;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.subtitulo {
+    font-weight: bold;
+    color: rgb(204, 102, 0);
+    font-size: 130%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.ligaArchivo {
+    font-size: 85%;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+body {
+    text-align: justify;
+}
+
+pre {
+    padding-top: 24px; /* Relleno - para ajustar Fondo */
+}
+
+pre code {
+    overflow: auto; /* Determina si es necesario agregar barras de Scroll */
+    background-color: #eeeeee; /* Color de Fondo en Hex */
+    border: 1px dashed #000000; /* Color de Borde en Hex */
+    color: #000000; /* Color de letra en Hex */
+    display: block; /* No tocar */
+    padding: 5px; /* Relleno del cuadro */
+    white-space: pre; /* No tocar */
+    text-align: left; /* Alineacion del Texto , left=izquierda, center= centrado, right=derecha */
+    min-height: 63px; /* Altura minima del Cuadro */
+    font-weight: bold;
+}
+
+table {
+    overflow: auto;
+    margin: auto;
+}
+
+th {
+    text-align: center;
+    background: #f49b16;
+    color: black;
+    border: 3px double;
+    padding: 5px 10px 5px 10px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px 10px 5px 10px;
+}
