@@ -10,6 +10,9 @@
 .codigo {
     font-weight: bold;
     font-family: courier new;
+    background-color: #9fb6d7;
+    border-radius: 6px;
+    padding: 0px 5px;
 }
 
 .nota {
@@ -31,8 +34,16 @@ span.nota {
     border-top-width: medium;
     border-top: .15rem solid #00a3da;
     box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1);
-    background: #EAEAEA;
-}
+    background: #F4F4F4;
+    font-family: Nunito;
+	/*
+	  background: #e6e4e4;
+	background-image: url("../img/info.png");
+	background-repeat: no-repeat;
+	height: 10px;
+	background-position: top left;
+	*/
+	}
 
 .post-title, .entry-title {
     color: #0070c0;
