@@ -7,12 +7,19 @@
     margin: auto;
 }
 
+.clase {
+    font-weight: bold;
+    font-family: courier new;
+    background-color: #a8c9f9;
+    border-radius: 6px;
+    padding: 0px 7px;
+    font-size: 115%;
+}
+
 .codigo {
     font-weight: bold;
     font-family: courier new;
-    background-color: #9fb6d7;
-    border-radius: 6px;
-    padding: 0px 5px;
+    font-size: 115%;
 }
 
 .nota {
@@ -25,7 +32,7 @@
 span.nota {
     padding: 1em;
     padding-top: 0.5em;
-    display: table-cell;
+    display: block;
     margin: 1.4rem 0;
     text-align: left;
     border: none;
@@ -33,9 +40,11 @@ span.nota {
     border-top-style: none;
     border-top-width: medium;
     border-top: .15rem solid #00a3da;
-    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1);
-    background: #F4F4F4;
+    box-shadow: 0 3px 12px 0 rgba(62, 60, 60, 0.51);
+    background: #eaeaea;
     font-family: Nunito;
+    width: 97%;
+    font-size: 115%;
 	/*
 	  background: #e6e4e4;
 	background-image: url("../img/info.png");
