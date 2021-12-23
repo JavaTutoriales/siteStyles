@@ -62,11 +62,11 @@ span.nota {
 }
 
 .anchorTitle,
-.anchorTitle:visited{
-    color: #f49b16;
+.anchorTitle:visited {
+    color: #f49b16 !important;
 }
 
-.anchorTitle:hover{
+.anchorTitle:hover {
     color: rgb(204, 102, 0);
 }
 
@@ -79,7 +79,7 @@ span.nota {
 
 .anchorSubtitle,
 .anchorSubtitle:visited {
-    color: rgb(204, 102, 0);
+    color: rgb(204, 102, 0) !important;
 }
 
 .anchorSubtitle:hover {
