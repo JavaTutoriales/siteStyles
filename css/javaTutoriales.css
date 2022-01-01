@@ -9,11 +9,10 @@
 
 .clase {
     font-weight: bold;
-    font-family: courier new;
+    font-family: 'JetBrains Mono', 'courier new', monospace;;
     background-color: #e6e6e6;
     border-radius: 6px;
     padding: 0px 7px;
-    font-size: 115%;
 }
 
 .codigo {
