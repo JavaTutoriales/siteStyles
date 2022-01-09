@@ -47,7 +47,7 @@ span.nota {
 }
 
 .post-title, .entry-title {
-    color: #0070c0;
+    /*color: #0070c0;*/
     color: white;
     padding: 0.5ex 3ex;
     background: #0070c0;
@@ -60,7 +60,7 @@ span.nota {
     border-radius: 7px;
 }
 
-post-title.entry-title a, post-title.entry-title a:visited{
+.post-title__link, .post-title__link:visited{
     color: white;
 }
 
