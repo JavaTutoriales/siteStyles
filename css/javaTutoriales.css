@@ -60,7 +60,7 @@ span.nota {
     border-radius: 7px;
 }
 
-post-title.entry-title a:visited{
+post-title.entry-title a, post-title.entry-title a:visited{
     color: white;
 }
 
